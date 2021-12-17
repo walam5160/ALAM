@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+/* header part start*/
+header {
+
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.logo {
+    width: 12%;
+
+    float: left;
+    margin-top: 9px;
+}
+
+.logo img {
+    width: 100%;
+
+}
+
+.menu {
+    width: 60%;
+    float: right;
+
+}
+
+.menu ul {}
+
+.menu ul li {
+    list-style: none;
+
+}
+
+.menu ul li a {
+    margin: 0 55px;
+    padding: 2px 3px;
+    display: inline-block;
+    float: left;
+    color: #626262;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+    transition: .5s;
+
+}
+
+.menu ul li a:hover {
+    color: #000000;
+
+
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+
+/* header part end */
+
+/* banner part start */
+.banner {}
+
+.b_img {}
+
+.b_img img {
+    width: 100%;
+}
+
+
+/* banner part end */
+/* perfect part start */
+.perfect{
+    padding: 80px 0 20px;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.p_content{}
+.c_tag{
+   font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    
+}
+.p_tag{
+   font-family:  'Playfair Display', serif;
+   font-size: 30px;
+    font-weight: 700;
+    color: #626262;
+    margin: 20px 0 25px;
+}
+.d_tag{
+    font-family:  'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262; 
+    line-height: 25px;
+}
+.a_tag{
+    color: #b4ad9e;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* perfect part end */
+/* blog part start */
+.blog{}
+.single{
+    width: 47%;
+    float: left;
+    
+}
+.single:nth-child(even){
+    margin-left: 6%;
+}
+.b_content{
+    overflow: hidden;
+}
+.s_img{
+    margin-bottom: 25px;
+  
+}
+.s_img img{
+    width: 100%;
+}
+
+/* blog part end */
+
+
+/* news part start*/
+.news{
+    min-height: 300px;
+    background-color: #ddd;
+}
+.load{
+    text-align: center;
+    margin: 15px 0;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    color: #626262;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #626262;
+    font-weight: 400;
+    font-size: 20px;
+    font-size: 20px;
+    transition: .3s;
+}
+.load button:hover{
+    color: green;
+    background-color: aqua;
+}
+/* news part end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
